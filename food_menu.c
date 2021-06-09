@@ -6,10 +6,10 @@
 #include<stdio.h>
 main()
 {
-	int a;
-	printf("Enter a number between 1 and 5\n");
-	scanf("%d",&a);
-	switch(a)
+        int choice;
+	printf("Choose an item\n1.sandwich\n2.french fries\n3.burger\n4.pizza\n5.pasta\n");
+	scanf("%d",&choice);
+	switch(choice)
 	{
 		case 1 :printf("Food item selected-sandwich\nPrice-Rs 149");
 		        break;
