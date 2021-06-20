@@ -4,7 +4,7 @@
 
 
 #include<stdio.h>
- void main()
+ int main()
  {
  	int arr[3][3],i,j,sum=0;
  	int *ptr[3][3];
@@ -33,5 +33,6 @@
 		printf("\n"); 
 	 }
 	
-	printf("\nThe sum of diagonal elements is %d",sum); 
+	printf("\nThe sum of diagonal elements is %d",sum);
+	return 0; 
  }
